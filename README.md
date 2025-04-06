@@ -8,7 +8,7 @@
 ---
 
 ### 🔑 Key Features:
-<img align="right" alt="Coding" width="400" src="https://github.com/SuperChargedCoder/OrangeHRM_Automation_Cucumber/blob/Shubham_QA/PicToUpload/Testing%20Upload.png">
+<img align="right" alt="Coding" width="400" src="[https://github.com/SuperChargedCoder/OrangeHRM_Automation_Cucumber/blob/Shubham_QA/PicToUpload/Testing%20Upload.png](https://github.com/SuperChargedCoder/SuperChargedCoder/blob/main/Git%20Profile%20Resources/Cucumber%20Framework.jpg)">
 
 - **Automated Test Execution Reporting:**
   - Generate detailed HTML reports for all test cases, capturing passed and failed scenarios.
