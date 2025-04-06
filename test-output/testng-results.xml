@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="17" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-06T11:53:43 IST" name="Default suite" finished-at="2025-04-06T11:58:13 IST" duration-ms="270560">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-04-06T11:53:43 IST" name="Default test" finished-at="2025-04-06T11:58:13 IST" duration-ms="270560">
+      <class name="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:53:43 IST" name="setUpClass" finished-at="2025-04-06T11:53:43 IST" duration-ms="562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a0e7f89]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:53:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:54:07 IST" duration-ms="24185" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Posting a Buzz with an Image"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Buzz Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failed to upload image expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failed to upload image expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at com.OrangeHRM.StepDefinitions.StepImplementation.user_selects_an_image_to_upload(StepImplementation.java:300)
+at ✽.User selects an image to upload(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/BuzzFunctionality.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:54:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:54:24 IST" duration-ms="16814" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Posting an Empty Buzz"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Buzz Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Post button is not disable for empty post text expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Post button is not disable for empty post text expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertFalse(Assert.java:78)
+at com.OrangeHRM.StepDefinitions.StepImplementation.the_button_should_be_disabled(StepImplementation.java:313)
+at ✽.The "Post" button should be disabled(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/BuzzFunctionality.feature:17)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:54:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:54:36 IST" duration-ms="11663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Display of Recently Posted Buzz"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Buzz Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:54:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:54:48 IST" duration-ms="12498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Adding a Comment to a Newsfeed Post"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Buzz Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:54:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:55:00 IST" duration-ms="11571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Liking a Newsfeed Post"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Buzz Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:55:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:55:13 IST" duration-ms="12522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Contact Number Display"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Directory Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:55:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:55:25 IST" duration-ms="12103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Confirm Work Email Visibility"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Directory Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:55:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:55:42 IST" duration-ms="17597" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Call Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Directory Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Alert automation failed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Alert automation failed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at com.OrangeHRM.StepDefinitions.StepImplementation.a_pop_up_message_should_be_displayed(StepImplementation.java:203)
+at ✽.A pop-up message should be displayed(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/DirectoryFunctionality.feature:27)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:55:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:55:55 IST" duration-ms="12537" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Password Reset Functionality with a Valid Username"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM Password Reset Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.OrangeHRM.StepDefinitions.StepImplementation.user_should_receive_a_password_reset_link(StepImplementation.java:88)
+at ✽.User should receive a password reset link(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/ForgotPasswordFunctionality.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:55:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:56:04 IST" duration-ms="9355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Password Reset Process When Username Field is Left Empty"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM Password Reset Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:56:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:56:17 IST" duration-ms="12831" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Password Reset Functionality with an Invalid Username"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM Password Reset Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.OrangeHRM.StepDefinitions.StepImplementation.user_should_see_an_invalid_user_error_message(StepImplementation.java:98)
+at ✽.User should see an invalid user error message: "Invalid username"(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/ForgotPasswordFunctionality.feature:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:56:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:56:27 IST" duration-ms="10009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify User Navigation Upon Clicking the Cancel Button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM Password Reset Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:56:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:56:38 IST" duration-ms="11122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Employee ID Update Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Profile Update Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:56:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:56:49 IST" duration-ms="10520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Date of Birth Update Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Profile Update Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:56:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:57:01 IST" duration-ms="12302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Gender Update Functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Profile Update Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:57:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:57:11 IST" duration-ms="9690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful Login with Valid Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:57:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:57:20 IST" duration-ms="9849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Error Message with Invalid Credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:57:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:57:28 IST" duration-ms="7907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Error Handling for Missing Username"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:57:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:57:36 IST" duration-ms="7976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login Error Handling for Missing Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["OrangeHRM Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:57:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:57:48 IST" duration-ms="11241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Password Change with No Input Provided"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Password Change Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:57:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:57:59 IST" duration-ms="11910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Password Change When New Password and Confirm Password Do Not Match"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Password Change Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:57:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T11:58:13 IST" duration-ms="13462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Password Change Using an Incorrect Current Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Password Change Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478]" started-at="2025-04-06T11:58:13 IST" name="tearDownClass" finished-at="2025-04-06T11:58:13 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

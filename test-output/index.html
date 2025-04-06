@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\Shubham Chaurasia\AppData\Local\Temp\testng-eclipse--499069743\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods, 5 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Posting an Empty Buzz&quot;, &quot;Buzz Functionality&quot;)">runScenario("Verify Posting an Empty Buzz", "Buzz Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Posting a Buzz with an Image&quot;, &quot;Buzz Functionality&quot;)">runScenario("Verify Posting a Buzz with an Image", "Buzz Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Test Call Functionality&quot;, &quot;Directory Functionality&quot;)">runScenario("Test Call Functionality", "Directory Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Password Reset Functionality with a Valid Username&quot;, &quot;OrangeHRM Password Reset Functionality...)">runScenario("Verify Password Reset Functionality with a Valid Username", "OrangeHRM Password Reset Functionality...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Password Reset Functionality with an Invalid Username&quot;, &quot;OrangeHRM Password Reset Functional...)">runScenario("Verify Password Reset Functionality with an Invalid Username", "OrangeHRM Password Reset Functional...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Display of Recently Posted Buzz&quot;, &quot;Buzz Functionality&quot;)">runScenario("Verify Display of Recently Posted Buzz", "Buzz Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Confirm Work Email Visibility&quot;, &quot;Directory Functionality&quot;)">runScenario("Confirm Work Email Visibility", "Directory Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Verify User Navigation Upon Clicking the Cancel Button&quot;, &quot;OrangeHRM Password Reset Functionality&quot;)">runScenario("Verify User Navigation Upon Clicking the Cancel Button", "OrangeHRM Password Reset Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Date of Birth Update Functionality&quot;, &quot;Profile Update Functionality&quot;)">runScenario("Validate Date of Birth Update Functionality", "Profile Update Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Password Change When New Password and Confirm Password Do Not Match&quot;, &quot;Password Change Funct...)">runScenario("Verify Password Change When New Password and Confirm Password Do Not Match", "Password Change Funct...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Password Reset Process When Username Field is Left Empty&quot;, &quot;OrangeHRM Password Reset Functio...)">runScenario("Verify Password Reset Process When Username Field is Left Empty", "OrangeHRM Password Reset Functio...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Successful Login with Valid Credentials&quot;, &quot;OrangeHRM Login Functionality&quot;)">runScenario("Successful Login with Valid Credentials", "OrangeHRM Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Liking a Newsfeed Post&quot;, &quot;Buzz Functionality&quot;)">runScenario("Verify Liking a Newsfeed Post", "Buzz Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Login Error Handling for Missing Username&quot;, &quot;OrangeHRM Login Functionality&quot;)">runScenario("Login Error Handling for Missing Username", "OrangeHRM Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Adding a Comment to a Newsfeed Post&quot;, &quot;Buzz Functionality&quot;)">runScenario("Verify Adding a Comment to a Newsfeed Post", "Buzz Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Login Error Handling for Missing Password&quot;, &quot;OrangeHRM Login Functionality&quot;)">runScenario("Login Error Handling for Missing Password", "OrangeHRM Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Password Change Using an Incorrect Current Password&quot;, &quot;Password Change Functionality&quot;)">runScenario("Verify Password Change Using an Incorrect Current Password", "Password Change Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Employee ID Update Functionality&quot;, &quot;Profile Update Functionality&quot;)">runScenario("Validate Employee ID Update Functionality", "Profile Update Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Contact Number Display&quot;, &quot;Directory Functionality&quot;)">runScenario("Validate Contact Number Display", "Directory Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Login Error Message with Invalid Credentials&quot;, &quot;OrangeHRM Login Functionality&quot;)">runScenario("Login Error Message with Invalid Credentials", "OrangeHRM Login Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Gender Update Functionality&quot;, &quot;Profile Update Functionality&quot;)">runScenario("Validate Gender Update Functionality", "Profile Update Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter" class="method navigator-link" hash-for-method="runScenario(&quot;Verify Password Change with No Input Provided&quot;, &quot;Password Change Functionality&quot;)">runScenario("Verify Password Change with No Input Provided", "Password Change Functionality")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Posting an Empty Buzz&quot;, &quot;Buzz Functionality&quot;)">
+                  </a> <!-- runScenario("Verify Posting an Empty Buzz", "Buzz Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Posting an Empty Buzz","Buzz Functionality")</span>
+                  <div class="stack-trace">java.lang.AssertionError: Post button is not disable for empty post text expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertFalse(Assert.java:78)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.the_button_should_be_disabled(StepImplementation.java:313)
+	at ✽.The &quot;Post&quot; button should be disabled(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/BuzzFunctionality.feature:17)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Posting a Buzz with an Image&quot;, &quot;Buzz Functionality&quot;)">
+                  </a> <!-- runScenario("Verify Posting a Buzz with an Image", "Buzz Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Posting a Buzz with an Image","Buzz Functionality")</span>
+                  <div class="stack-trace">java.lang.AssertionError: Failed to upload image expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.user_selects_an_image_to_upload(StepImplementation.java:300)
+	at ✽.User selects an image to upload(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/BuzzFunctionality.feature:11)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Test Call Functionality&quot;, &quot;Directory Functionality&quot;)">
+                  </a> <!-- runScenario("Test Call Functionality", "Directory Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Test Call Functionality","Directory Functionality")</span>
+                  <div class="stack-trace">java.lang.AssertionError: Alert automation failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.a_pop_up_message_should_be_displayed(StepImplementation.java:203)
+	at ✽.A pop-up message should be displayed(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/DirectoryFunctionality.feature:27)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Password Reset Functionality with a Valid Username&quot;, &quot;OrangeHRM Password Reset Functionality...)">
+                  </a> <!-- runScenario("Verify Password Reset Functionality with a Valid Username", "OrangeHRM Password Reset Functionality...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Password Reset Functionality with a Valid Username","OrangeHRM Password Reset Functionality")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.user_should_receive_a_password_reset_link(StepImplementation.java:88)
+	at ✽.User should receive a password reset link(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/ForgotPasswordFunctionality.feature:11)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Password Reset Functionality with an Invalid Username&quot;, &quot;OrangeHRM Password Reset Functional...)">
+                  </a> <!-- runScenario("Verify Password Reset Functionality with an Invalid Username", "OrangeHRM Password Reset Functional...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Password Reset Functionality with an Invalid Username","OrangeHRM Password Reset Functionality")</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.user_should_see_an_invalid_user_error_message(StepImplementation.java:98)
+	at ✽.User should see an invalid user error message: &quot;Invalid username&quot;(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/ForgotPasswordFunctionality.feature:24)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Display of Recently Posted Buzz&quot;, &quot;Buzz Functionality&quot;)">
+                  </a> <!-- runScenario("Verify Display of Recently Posted Buzz", "Buzz Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Display of Recently Posted Buzz","Buzz Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Confirm Work Email Visibility&quot;, &quot;Directory Functionality&quot;)">
+                  </a> <!-- runScenario("Confirm Work Email Visibility", "Directory Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Confirm Work Email Visibility","Directory Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify User Navigation Upon Clicking the Cancel Button&quot;, &quot;OrangeHRM Password Reset Functionality&quot;)">
+                  </a> <!-- runScenario("Verify User Navigation Upon Clicking the Cancel Button", "OrangeHRM Password Reset Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify User Navigation Upon Clicking the Cancel Button","OrangeHRM Password Reset Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Date of Birth Update Functionality&quot;, &quot;Profile Update Functionality&quot;)">
+                  </a> <!-- runScenario("Validate Date of Birth Update Functionality", "Profile Update Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Date of Birth Update Functionality","Profile Update Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Password Change When New Password and Confirm Password Do Not Match&quot;, &quot;Password Change Funct...)">
+                  </a> <!-- runScenario("Verify Password Change When New Password and Confirm Password Do Not Match", "Password Change Funct...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Password Change When New Password and Confirm Password Do Not Match","Password Change Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Password Reset Process When Username Field is Left Empty&quot;, &quot;OrangeHRM Password Reset Functio...)">
+                  </a> <!-- runScenario("Verify Password Reset Process When Username Field is Left Empty", "OrangeHRM Password Reset Functio...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Password Reset Process When Username Field is Left Empty","OrangeHRM Password Reset Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Successful Login with Valid Credentials&quot;, &quot;OrangeHRM Login Functionality&quot;)">
+                  </a> <!-- runScenario("Successful Login with Valid Credentials", "OrangeHRM Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Successful Login with Valid Credentials","OrangeHRM Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Liking a Newsfeed Post&quot;, &quot;Buzz Functionality&quot;)">
+                  </a> <!-- runScenario("Verify Liking a Newsfeed Post", "Buzz Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Liking a Newsfeed Post","Buzz Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login Error Handling for Missing Username&quot;, &quot;OrangeHRM Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login Error Handling for Missing Username", "OrangeHRM Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login Error Handling for Missing Username","OrangeHRM Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Adding a Comment to a Newsfeed Post&quot;, &quot;Buzz Functionality&quot;)">
+                  </a> <!-- runScenario("Verify Adding a Comment to a Newsfeed Post", "Buzz Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Adding a Comment to a Newsfeed Post","Buzz Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login Error Handling for Missing Password&quot;, &quot;OrangeHRM Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login Error Handling for Missing Password", "OrangeHRM Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login Error Handling for Missing Password","OrangeHRM Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Password Change Using an Incorrect Current Password&quot;, &quot;Password Change Functionality&quot;)">
+                  </a> <!-- runScenario("Verify Password Change Using an Incorrect Current Password", "Password Change Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Password Change Using an Incorrect Current Password","Password Change Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Employee ID Update Functionality&quot;, &quot;Profile Update Functionality&quot;)">
+                  </a> <!-- runScenario("Validate Employee ID Update Functionality", "Profile Update Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Employee ID Update Functionality","Profile Update Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Contact Number Display&quot;, &quot;Directory Functionality&quot;)">
+                  </a> <!-- runScenario("Validate Contact Number Display", "Directory Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Contact Number Display","Directory Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login Error Message with Invalid Credentials&quot;, &quot;OrangeHRM Login Functionality&quot;)">
+                  </a> <!-- runScenario("Login Error Message with Invalid Credentials", "OrangeHRM Login Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login Error Message with Invalid Credentials","OrangeHRM Login Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Gender Update Functionality&quot;, &quot;Profile Update Functionality&quot;)">
+                  </a> <!-- runScenario("Validate Gender Update Functionality", "Profile Update Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Gender Update Functionality","Profile Update Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify Password Change with No Input Provided&quot;, &quot;Password Change Functionality&quot;)">
+                  </a> <!-- runScenario("Verify Password Change with No Input Provided", "Password Change Functionality") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify Password Change with No Input Provided","Password Change Functionality")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Shubham Chaurasia\AppData\Local\Temp\testng-eclipse--499069743\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(0, 3, 24185);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(1, 3, 17597);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(2, 3, 16814);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(3, 3, 13462);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(4, 3, 12831);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(5, 3, 12537);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(6, 3, 12522);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(7, 3, 12498);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(8, 3, 12302);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(9, 3, 12103);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(10, 3, 11910);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(11, 3, 11663);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(12, 3, 11571);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(13, 3, 11241);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(14, 3, 11122);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(15, 3, 10520);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(16, 3, 10009);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(17, 3, 9849);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(18, 3, 9690);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(19, 3, 9355);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(20, 3, 7976);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter')
+data.setCell(21, 3, 7907);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@3a0e7f89)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify Posting a Buzz with an Image", "Buzz Functionality")</span>
+                <span class="method-start">571 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify Posting an Empty Buzz", "Buzz Functionality")</span>
+                <span class="method-start">24759 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Display of Recently Posted Buzz", "Buzz Functionality")</span>
+                <span class="method-start">41574 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Adding a Comment to a Newsfeed Post", "Buzz Functionality")</span>
+                <span class="method-start">53238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Liking a Newsfeed Post", "Buzz Functionality")</span>
+                <span class="method-start">65737 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Contact Number Display", "Directory Functionality")</span>
+                <span class="method-start">77308 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Confirm Work Email Visibility", "Directory Functionality")</span>
+                <span class="method-start">89831 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Test Call Functionality", "Directory Functionality")</span>
+                <span class="method-start">101935 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify Password Reset Functionality with a Valid Username", "OrangeHRM Password Reset Functionality...)</span>
+                <span class="method-start">119532 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Password Reset Process When Username Field is Left Empty", "OrangeHRM Password Reset Functio...)</span>
+                <span class="method-start">132070 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify Password Reset Functionality with an Invalid Username", "OrangeHRM Password Reset Functional...)</span>
+                <span class="method-start">141426 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify User Navigation Upon Clicking the Cancel Button", "OrangeHRM Password Reset Functionality")</span>
+                <span class="method-start">154258 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Employee ID Update Functionality", "Profile Update Functionality")</span>
+                <span class="method-start">164267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Date of Birth Update Functionality", "Profile Update Functionality")</span>
+                <span class="method-start">175390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Gender Update Functionality", "Profile Update Functionality")</span>
+                <span class="method-start">185911 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Successful Login with Valid Credentials", "OrangeHRM Login Functionality")</span>
+                <span class="method-start">198213 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login Error Message with Invalid Credentials", "OrangeHRM Login Functionality")</span>
+                <span class="method-start">207903 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login Error Handling for Missing Username", "OrangeHRM Login Functionality")</span>
+                <span class="method-start">217752 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login Error Handling for Missing Password", "OrangeHRM Login Functionality")</span>
+                <span class="method-start">225659 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Password Change with No Input Provided", "Password Change Functionality")</span>
+                <span class="method-start">233636 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Password Change When New Password and Confirm Password Do Not Match", "Password Change Funct...)</span>
+                <span class="method-start">244877 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify Password Change Using an Incorrect Current Password", "Password Change Functionality")</span>
+                <span class="method-start">256787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">270252 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

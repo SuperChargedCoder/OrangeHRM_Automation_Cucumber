@@ -1,0 +1,268 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/5/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Apr 06 11:53:43 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>270 seconds (270560 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Posting an Empty Buzz", "Buzz Functionality"</td>
+<td><div><pre>java.lang.AssertionError: Post button is not disable for empty post text expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertFalse(Assert.java:78)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.the_button_should_be_disabled(StepImplementation.java:313)
+	at ✽.The &quot;Post&quot; button should be disabled(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/BuzzFunctionality.feature:17)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1257703748", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1257703748'><pre>java.lang.AssertionError: Post button is not disable for empty post text expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertFalse(Assert.java:78)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.the_button_should_be_disabled(StepImplementation.java:313)
+	at ✽.The &quot;Post&quot; button should be disabled(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/BuzzFunctionality.feature:17)
+</pre></div></td>
+<td>16</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Posting a Buzz with an Image", "Buzz Functionality"</td>
+<td><div><pre>java.lang.AssertionError: Failed to upload image expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.user_selects_an_image_to_upload(StepImplementation.java:300)
+	at ✽.User selects an image to upload(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/BuzzFunctionality.feature:11)
+</pre></div><a href='#' onClick='toggleBox("stack-trace193156903", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace193156903'><pre>java.lang.AssertionError: Failed to upload image expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.user_selects_an_image_to_upload(StepImplementation.java:300)
+	at ✽.User selects an image to upload(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/BuzzFunctionality.feature:11)
+</pre></div></td>
+<td>24</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Call Functionality", "Directory Functionality"</td>
+<td><div><pre>java.lang.AssertionError: Alert automation failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.a_pop_up_message_should_be_displayed(StepImplementation.java:203)
+	at ✽.A pop-up message should be displayed(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/DirectoryFunctionality.feature:27)
+</pre></div><a href='#' onClick='toggleBox("stack-trace134271077", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace134271077'><pre>java.lang.AssertionError: Alert automation failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.a_pop_up_message_should_be_displayed(StepImplementation.java:203)
+	at ✽.A pop-up message should be displayed(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/DirectoryFunctionality.feature:27)
+</pre></div></td>
+<td>17</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Password Reset Functionality with a Valid Username", "OrangeHRM Password Reset Functionality"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.user_should_receive_a_password_reset_link(StepImplementation.java:88)
+	at ✽.User should receive a password reset link(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/ForgotPasswordFunctionality.feature:11)
+</pre></div><a href='#' onClick='toggleBox("stack-trace841118229", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace841118229'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.user_should_receive_a_password_reset_link(StepImplementation.java:88)
+	at ✽.User should receive a password reset link(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/ForgotPasswordFunctionality.feature:11)
+</pre></div></td>
+<td>12</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Password Reset Functionality with an Invalid Username", "OrangeHRM Password Reset Functionality"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.user_should_see_an_invalid_user_error_message(StepImplementation.java:98)
+	at ✽.User should see an invalid user error message: &quot;Invalid username&quot;(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/ForgotPasswordFunctionality.feature:24)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1258539949", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1258539949'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.user_should_see_an_invalid_user_error_message(StepImplementation.java:98)
+	at ✽.User should see an invalid user error message: &quot;Invalid username&quot;(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/ForgotPasswordFunctionality.feature:24)
+</pre></div></td>
+<td>12</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Display of Recently Posted Buzz", "Buzz Functionality"</td>
+<td></td>
+<td>11</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Confirm Work Email Visibility", "Directory Functionality"</td>
+<td></td>
+<td>12</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify User Navigation Upon Clicking the Cancel Button", "OrangeHRM Password Reset Functionality"</td>
+<td></td>
+<td>10</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Date of Birth Update Functionality", "Profile Update Functionality"</td>
+<td></td>
+<td>10</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Password Change When New Password and Confirm Password Do Not Match", "Password Change Functionality"</td>
+<td></td>
+<td>11</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Password Reset Process When Username Field is Left Empty", "OrangeHRM Password Reset Functionality"</td>
+<td></td>
+<td>9</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful Login with Valid Credentials", "OrangeHRM Login Functionality"</td>
+<td></td>
+<td>9</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Liking a Newsfeed Post", "Buzz Functionality"</td>
+<td></td>
+<td>11</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Error Handling for Missing Username", "OrangeHRM Login Functionality"</td>
+<td></td>
+<td>7</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Adding a Comment to a Newsfeed Post", "Buzz Functionality"</td>
+<td></td>
+<td>12</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Error Handling for Missing Password", "OrangeHRM Login Functionality"</td>
+<td></td>
+<td>7</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Password Change Using an Incorrect Current Password", "Password Change Functionality"</td>
+<td></td>
+<td>13</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Employee ID Update Functionality", "Profile Update Functionality"</td>
+<td></td>
+<td>11</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Contact Number Display", "Directory Functionality"</td>
+<td></td>
+<td>12</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Error Message with Invalid Credentials", "OrangeHRM Login Functionality"</td>
+<td></td>
+<td>9</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Gender Update Functionality", "Profile Update Functionality"</td>
+<td></td>
+<td>12</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+<tr>
+<td title='com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter.runScenario()'><b>runScenario</b><br>Test class: com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Password Change with No Input Provided", "Password Change Functionality"</td>
+<td></td>
+<td>11</td>
+<td>com.OrangeHRM.TestNG_Cucumber_Runner.Runner_ExtentReporter@662ac478</td></tr>
+</table><p>
+</body>
+</html>

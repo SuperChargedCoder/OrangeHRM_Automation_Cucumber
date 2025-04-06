@@ -1,0 +1,1507 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 6, 2025 11:53:43 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Buzz Functionality</p>
+            <p class="text-sm">
+              <span>11:53:43 am</span> / <span>00:01:16:569</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Buzz Functionality</h5>
+<span class='badge badge-success'>04.06.2025 11:53:43 am</span>
+<span class='badge badge-danger'>04.06.2025 11:55:00 am</span>
+<span class='badge badge-default'>00:01:16:569</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Verify Posting a Buzz with an Image</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_orange_hrm_login_page()">
+                <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_perform_login_operation(java.lang.String,java.lang.String)">
+                <span>And User perform login operation : "Shubham" and "Testing@123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_buzz_page()">
+                <span>And User navigates to the Buzz page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_clicks_on_button()">
+                <span>When User clicks on the Share Photos button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_selects_an_image_to_upload()">
+                <span>And User selects an image to upload</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Failed to upload image expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.user_selects_an_image_to_upload(StepImplementation.java:300)
+	at ✽.User selects an image to upload(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/BuzzFunctionality.feature:11)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.OrangeHRM.StepDefinitions.Hooks.Reporting(io.cucumber.java.Scenario)</span>
+      <div>Verify Posting a Buzz with an Image
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_clicks_share_on_button()">
+                <span>And User clicks on the Share button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_should_see_a_success_save_message()">
+                <span>Then User should see a success save message</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.the_posted_image_should_be_visible_on_the_feed()">
+                <span>And The posted image should be visible on the feed</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="21"><span class="badge log fail-bg mr-2">Fail</span>Verify Posting an Empty Buzz</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_orange_hrm_login_page()">
+                <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_perform_login_operation(java.lang.String,java.lang.String)">
+                <span>And User perform login operation : "Shubham" and "Testing@123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_buzz_page()">
+                <span>And User navigates to the Buzz page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.the_button_should_be_disabled(java.lang.String)">
+                <span>Then The "Post" button should be disabled</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Post button is not disable for empty post text expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertFalse(Assert.java:78)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.the_button_should_be_disabled(StepImplementation.java:313)
+	at ✽.The "Post" button should be disabled(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/BuzzFunctionality.feature:17)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.OrangeHRM.StepDefinitions.Hooks.Reporting(io.cucumber.java.Scenario)</span>
+      <div>Verify Posting an Empty Buzz
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="32"><span class="badge log pass-bg mr-2">Pass</span>Verify Display of Recently Posted Buzz</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="33"><span class="badge log pass-bg mr-2">Pass</span>Verify Display of Recently Posted Buzz</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User perform login operation : "Shubham" and "Testing@123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User navigates to the Buzz page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User posts a new buzz : "Testing"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should see a success save message</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And The newly posted buzz should be displayed : "Testing"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="48"><span class="badge log pass-bg mr-2">Pass</span>Verify Adding a Comment to a Newsfeed Post</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_orange_hrm_login_page()">
+                <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_perform_login_operation(java.lang.String,java.lang.String)">
+                <span>And User perform login operation : "Shubham" and "Testing@123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_buzz_page()">
+                <span>And User navigates to the Buzz page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_adds_a_comment(java.lang.String)">
+                <span>When User adds a comment : "Testing Comment"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_should_see_a_success_save_message()">
+                <span>Then User should see a success save message</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.the_comment_should_be_displayed_under_the_post(java.lang.String)">
+                <span>And The comment should be displayed under the post : "Testing Comment"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="63"><span class="badge log pass-bg mr-2">Pass</span>Verify Liking a Newsfeed Post</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_orange_hrm_login_page()">
+                <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_perform_login_operation(java.lang.String,java.lang.String)">
+                <span>And User perform login operation : "Shubham" and "Testing@123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_buzz_page()">
+                <span>And User navigates to the Buzz page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_clicks_on_the_like_button_of_a_post()">
+                <span>When User clicks on the like button of a post</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.the_like_count_should_increase_by_1()">
+                <span>Then The like count should increase by 1</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="76"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Directory Functionality</p>
+            <p class="text-sm">
+              <span>11:55:00 am</span> / <span>00:00:42:217</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Directory Functionality</h5>
+<span class='badge badge-success'>04.06.2025 11:55:00 am</span>
+<span class='badge badge-danger'>04.06.2025 11:55:42 am</span>
+<span class='badge badge-default'>00:00:42:217</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=76</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="77"><span class="badge log pass-bg mr-2">Pass</span>Validate Contact Number Display</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="78"><span class="badge log pass-bg mr-2">Pass</span>Validate Contact Number Display</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User perform login operation : "Shubham" and "Testing@123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User navigates to the Directory page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User searches for employee with name "Peter Mac Anderson"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Contact number should be "112-342-0005"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="91"><span class="badge log pass-bg mr-2">Pass</span>Confirm Work Email Visibility</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="92"><span class="badge log pass-bg mr-2">Pass</span>Confirm Work Email Visibility</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User perform login operation : "Shubham" and "Testing@123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User navigates to the Directory page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User searches for employee with name "Peter Mac Anderson"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Work email should be "peter@osohrm.com"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="105"><span class="badge log fail-bg mr-2">Fail</span>Test Call Functionality</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_orange_hrm_login_page()">
+                <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_perform_login_operation(java.lang.String,java.lang.String)">
+                <span>And User perform login operation : "Shubham" and "Testing@123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_directory_page()">
+                <span>And User navigates to the Directory page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_searches_for_employee_with_name(java.lang.String)">
+                <span>When User searches for employee with name "Peter Mac Anderson"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_clicks_on_the_call_button_for_an_employee()">
+                <span>And User clicks on the call button for an employee</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.a_pop_up_message_should_be_displayed()">
+                <span>Then A pop-up message should be displayed</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Alert automation failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.a_pop_up_message_should_be_displayed(StepImplementation.java:203)
+	at ✽.A pop-up message should be displayed(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/DirectoryFunctionality.feature:27)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.OrangeHRM.StepDefinitions.Hooks.Reporting(io.cucumber.java.Scenario)</span>
+      <div>Test Call Functionality
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded3.png' src="../Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="120"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OrangeHRM Password Reset Functionality</p>
+            <p class="text-sm">
+              <span>11:55:42 am</span> / <span>00:00:44:729</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">OrangeHRM Password Reset Functionality</h5>
+<span class='badge badge-success'>04.06.2025 11:55:42 am</span>
+<span class='badge badge-danger'>04.06.2025 11:56:27 am</span>
+<span class='badge badge-default'>00:00:44:729</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=120</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="121"><span class="badge log fail-bg mr-2">Fail</span>Verify Password Reset Functionality with a Valid Username</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="122"><span class="badge log fail-bg mr-2">Fail</span>Verify Password Reset Functionality with a Valid Username</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the Forgot Your Password? link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters username to identify your account : "shubham"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the Reset Password button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then User should receive a password reset link</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.user_should_receive_a_password_reset_link(StepImplementation.java:88)
+	at ✽.User should receive a password reset link(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/ForgotPasswordFunctionality.feature:11)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.OrangeHRM.StepDefinitions.Hooks.Reporting(io.cucumber.java.Scenario)</span>
+      <div>Verify Password Reset Functionality with a Valid Username
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded4.png' src="../Screenshots/embedded4.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="135"><span class="badge log pass-bg mr-2">Pass</span>Verify Password Reset Process When Username Field is Left Empty</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_orange_hrm_login_page()">
+                <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_clicks_on_the_forgot_your_password_link()">
+                <span>And User clicks on the Forgot Your Password? link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_clicks_on_the_reset_password_button()">
+                <span>And User clicks on the Reset Password button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_should_see_an_mandatory_field_error_message(java.lang.String)">
+                <span>Then User should see an mandatory field error message: "Required"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="146"><span class="badge log fail-bg mr-2">Fail</span>Verify Password Reset Functionality with an Invalid Username</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="147"><span class="badge log fail-bg mr-2">Fail</span>Verify Password Reset Functionality with an Invalid Username</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the Forgot Your Password? link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters username to identify your account : "invalid_user"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the Reset Password button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then User should see an invalid user error message: "Invalid username"</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.OrangeHRM.StepDefinitions.StepImplementation.user_should_see_an_invalid_user_error_message(StepImplementation.java:98)
+	at ✽.User should see an invalid user error message: "Invalid username"(file:///D:/All%20Desktop%20folders/BDD%20Cucumber/Cucumber%20Self%20Practice/CucumberBitesBackAtOrangeHRM/src/test/java/com/OrangeHRM/FeatureFiles/ForgotPasswordFunctionality.feature:24)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.OrangeHRM.StepDefinitions.Hooks.Reporting(io.cucumber.java.Scenario)</span>
+      <div>Verify Password Reset Functionality with an Invalid Username
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded5.png' src="../Screenshots/embedded5.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="160"><span class="badge log pass-bg mr-2">Pass</span>Verify User Navigation Upon Clicking the Cancel Button</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_orange_hrm_login_page()">
+                <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_clicks_on_the_forgot_your_password_link()">
+                <span>And User clicks on the Forgot Your Password? link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_clicks_on_the_cancel_button()">
+                <span>When User clicks on the Cancel button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_should_be_redirected_back_to_the_login_page()">
+                <span>Then User should be redirected back to the login page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="171"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Profile Update Functionality</p>
+            <p class="text-sm">
+              <span>11:56:27 am</span> / <span>00:00:33:940</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Profile Update Functionality</h5>
+<span class='badge badge-success'>04.06.2025 11:56:27 am</span>
+<span class='badge badge-danger'>04.06.2025 11:57:01 am</span>
+<span class='badge badge-default'>00:00:33:940</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=171</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="172"><span class="badge log pass-bg mr-2">Pass</span>Validate Employee ID Update Functionality</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_orange_hrm_login_page()">
+                <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_perform_login_operation(java.lang.String,java.lang.String)">
+                <span>And User perform login operation : "Shubham" and "Testing@123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_my_info()">
+                <span>And User navigates to My Info</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_tries_to_modify_employee_id(java.lang.String)">
+                <span>When User tries to modify Employee ID : "EmpId"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.employee_id_text_box_should_be_disabled()">
+                <span>Then Employee ID text box should be disabled</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="185"><span class="badge log pass-bg mr-2">Pass</span>Validate Date of Birth Update Functionality</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_orange_hrm_login_page()">
+                <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_perform_login_operation(java.lang.String,java.lang.String)">
+                <span>And User perform login operation : "Shubham" and "Testing@123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_my_info()">
+                <span>And User navigates to My Info</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_tries_to_modify_date_of_birth(java.lang.String)">
+                <span>When User tries to modify Date of Birth : "20-07-1999"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.date_of_birth_input_field_should_be_disabled()">
+                <span>Then Date of Birth input field should be disabled</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="198"><span class="badge log pass-bg mr-2">Pass</span>Validate Gender Update Functionality</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_orange_hrm_login_page()">
+                <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_perform_login_operation(java.lang.String,java.lang.String)">
+                <span>And User perform login operation : "Shubham" and "Testing@123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_my_info()">
+                <span>And User navigates to My Info</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_clicks_on_a_gender(java.lang.String)">
+                <span>When User clicks on a gender "Male"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.only_one_gender_option_should_be_selected_at_a_time()">
+                <span>And Only one gender option should be selected at a time</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_clicks_on_the_save_button()">
+                <span>And User clicks on the 'Save' button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_should_see_a_success_message()">
+                <span>Then User should see a success message</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="215"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">OrangeHRM Login Functionality</p>
+            <p class="text-sm">
+              <span>11:57:01 am</span> / <span>00:00:35:417</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">OrangeHRM Login Functionality</h5>
+<span class='badge badge-success'>04.06.2025 11:57:01 am</span>
+<span class='badge badge-danger'>04.06.2025 11:57:36 am</span>
+<span class='badge badge-default'>00:00:35:417</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=215</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="216"><span class="badge log pass-bg mr-2">Pass</span>Successful Login with Valid Credentials</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="217"><span class="badge log pass-bg mr-2">Pass</span>Successful Login with Valid Credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters username: "shubham"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters password: "Testing@123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should be logged in successfully with name : "Shubham Chaurasia"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="230"><span class="badge log pass-bg mr-2">Pass</span>Login Error Message with Invalid Credentials</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="231"><span class="badge log pass-bg mr-2">Pass</span>Login Error Message with Invalid Credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters username: "invalid_user"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters password: "invalid_pass"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on Login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should see an Invalid error message: "Invalid credentials"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="244"><span class="badge log pass-bg mr-2">Pass</span>Login Error Handling for Missing Username</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_orange_hrm_login_page()">
+                <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_enters_password(java.lang.String)">
+                <span>And User enters password: "password"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_clicks_on_login_button()">
+                <span>And User clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_should_see_an_error_message(java.lang.String)">
+                <span>Then User should see an error message: "Required"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="255"><span class="badge log pass-bg mr-2">Pass</span>Login Error Handling for Missing Password</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_orange_hrm_login_page()">
+                <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_enters_username(java.lang.String)">
+                <span>When User enters username: "username"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_clicks_on_login_button()">
+                <span>And User clicks on Login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_should_see_an_error_message(java.lang.String)">
+                <span>Then User should see an error message: "Required"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="266"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Password Change Functionality</p>
+            <p class="text-sm">
+              <span>11:57:36 am</span> / <span>00:00:36:610</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Password Change Functionality</h5>
+<span class='badge badge-success'>04.06.2025 11:57:36 am</span>
+<span class='badge badge-danger'>04.06.2025 11:58:13 am</span>
+<span class='badge badge-default'>00:00:36:610</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=266</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="267"><span class="badge log pass-bg mr-2">Pass</span>Verify Password Change with No Input Provided</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_orange_hrm_login_page()">
+                <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_perform_login_operation(java.lang.String,java.lang.String)">
+                <span>And User perform login operation : "Shubham" and "Testing@123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_change_password_page_from_profile_dropdown()">
+                <span>And User navigates to 'Change Password' page from profile dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_clicks_on_save_button()">
+                <span>And User clicks on Save button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_should_see_password_change_mandatory_error_message(java.lang.String)">
+                <span>Then User should see Password Change mandatory error message: "Required"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_should_see_error_message(java.lang.String)">
+                <span>And User should see error message : "Passwords do not match"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="282"><span class="badge log pass-bg mr-2">Pass</span>Verify Password Change When New Password and Confirm Password Do Not Match</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_orange_hrm_login_page()">
+                <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_perform_login_operation(java.lang.String,java.lang.String)">
+                <span>And User perform login operation : "Shubham" and "Testing@123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_change_password_page_from_profile_dropdown()">
+                <span>And User navigates to 'Change Password' page from profile dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_enters_active_password(java.lang.String)">
+                <span>When User enters active password: "password"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_enters_a_new_password(java.lang.String)">
+                <span>And User enters a new password : "NewPassword"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_enters_a_confirm_password(java.lang.String)">
+                <span>And User enters a confirm password : "DifferentPassword"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_clicks_on_save_button()">
+                <span>And User clicks on Save button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_should_see_error_message(java.lang.String)">
+                <span>Then User should see error message : "Passwords do not match"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="301"><span class="badge log pass-bg mr-2">Pass</span>Verify Password Change Using an Incorrect Current Password</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_the_orange_hrm_login_page()">
+                <span>Given User navigates to the OrangeHRM login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_perform_login_operation(java.lang.String,java.lang.String)">
+                <span>And User perform login operation : "Shubham" and "Testing@123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_navigates_to_change_password_page_from_profile_dropdown()">
+                <span>And User navigates to 'Change Password' page from profile dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_enters_active_password(java.lang.String)">
+                <span>When User enters active password: "Testing@789"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_enters_a_new_password(java.lang.String)">
+                <span>And User enters a new password : "NewPassword@123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_enters_a_confirm_password(java.lang.String)">
+                <span>And User enters a confirm password : "NewPassword@123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_clicks_on_save_button()">
+                <span>And User clicks on Save button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.OrangeHRM.StepDefinitions.StepImplementation.user_should_see_incorrect_active_password_error_message(java.lang.String)">
+                <span>Then User should see incorrect active password error message : "Current Password is Incorrect"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>5</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>5 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:53:54 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='12'>And User selects an image to upload</a>
+<div class="">
+<span class="badge badge-default">Buzz Functionality.Verify Posting a Buzz with an Image.And User selects an image to upload</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:54:19 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='29'>Then The "Post" button should be disabled</a>
+<div class="">
+<span class="badge badge-default">Buzz Functionality.Verify Posting an Empty Buzz.Then The "Post" button should be disabled</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:55:36 am</td>
+<td>
+<a href="#" class="linked" test-id='76' id='117'>Then A pop-up message should be displayed</a>
+<div class="">
+<span class="badge badge-default">Directory Functionality.Test Call Functionality.Then A pop-up message should be displayed</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:55:50 am</td>
+<td>
+<a href="#" class="linked" test-id='120' id='132'>Then User should receive a password reset link</a>
+<div class="">
+<span class="badge badge-default">OrangeHRM Password Reset Functionality.Verify Password Reset Functionality with a Valid Username.Then User should receive a password reset link</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:56:12 am</td>
+<td>
+<a href="#" class="linked" test-id='120' id='157'>Then User should see an invalid user error message: "Invalid username"</a>
+<div class="">
+<span class="badge badge-default">OrangeHRM Password Reset Functionality.Verify Password Reset Functionality with an Invalid Username.Then User should see an invalid user error message: "Invalid username"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 6, 2025 11:53:43 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 6, 2025 11:58:13 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>3</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>3</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='50%'>
+<b>3</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='50%'><b>3</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='77%'><b>17</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='22%'><b>5</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='93%'><b>117</b> steps passed</small></div>
+<div>
+<small data-tooltip='4%'><b>5</b> steps failed,
+<b>3</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Buzz Functionality":76.569,"Directory Functionality":42.217,"OrangeHRM Password Reset Functionality":44.729,"Profile Update Functionality":33.94,"OrangeHRM Login Functionality":35.417,"Password Change Functionality":36.61
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 3,
+failParent: 3,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 17,
+failChild: 5,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 117,
+failGrandChild: 5,
+warningGrandChild: 0,
+skipGrandChild: 3,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
